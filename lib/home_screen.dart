@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'details_screen.dart';
 
+// ignore: use_key_in_widget_constructors
 class HomeScreen extends StatelessWidget {
   final List<Map<String, String>> recipes = [
     {'name': 'Pancakes', 'ingredients': 'Flour, Eggs, Milk, Sugar', 'instructions': 'Mix and cook on a pan.'},

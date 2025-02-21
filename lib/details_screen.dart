@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class DetailsScreen extends StatelessWidget {
   final Map<String, String> recipe;
 
-  DetailsScreen({required this.recipe});
+  const DetailsScreen({required this.recipe});
  @override
   Widget build(BuildContext context) {
     return Scaffold(
