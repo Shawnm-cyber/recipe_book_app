@@ -12,7 +12,7 @@ class RecipeBookApp extends StatelessWidget {
       title: 'Recipe Book',
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
-        accentColor: Colors.teal,
+        hintColor: Colors.teal,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeScreen(),
